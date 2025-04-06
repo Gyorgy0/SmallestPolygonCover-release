@@ -4,9 +4,8 @@ The webpage is a compiled WASM binary, it uses WebGL, so it's pretty performant.
 
 Implemented hill climbing variants:
 - Stochastic
-- Steepest ascent
-- Random restart
-- Stochastic + Taboo search 
-- Stochastic + Simulated cooling (time limit)
+- Steepest ascent (one node)
+- Steepest ascent (all nodes) 
+- Stochastic + Simulated cooling (iteration limit)
 - Stochastic + Simulated cooling (constant)
 - Stochastic + Simulated cooling (fitness dependent)
